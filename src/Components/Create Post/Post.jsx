@@ -4,12 +4,13 @@ import Nav from '../Nav'
 import { useNavigate } from 'react-router-dom';
 import FileBase from "react-file-base64";
 const Post = () => {
+    const apiUrl = process.env.REACT_APP_API_URL;
     const [postData, setPostData] = useState({ author: "", description: "", selectFile: "" });
     const navigate = useNavigate();
     const handlePost = async (e) => {
         console.log(postData);
         e.preventDefault();
-        await fetch("http://localhost:3000/post", {
+        await fetch(`${apiUrl}/post`, {
             method: "POST",
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(postData)
