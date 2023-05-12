@@ -1,0 +1,47 @@
+.post {
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 30%;
+    height: 70%;
+    border: 0.5px solid gray;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+   
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs {
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+.form textarea {
+    height:4rem;
+}
+
+.form button {
+    height:3rem;
+    border: none;
+    background-color: rgb(111, 193, 111);
+    color: white;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+.file {
+    display: flex;
+   width: 100%;
+}

@@ -1,0 +1,28 @@
+
+.like:hover {
+    cursor: pointer;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    gap : 0.5rem;
+}
+
+.comment textarea {
+    padding-left: 0.5rem;
+}
+
+.comm_1 {
+    color : white;
+    width: fit-content;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    background-color: #6495ED;
+    font-weight: bold;
+    font-size: small;
+}
+.username{
+    font-weight:bold;
+    
+}
