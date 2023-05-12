@@ -74,7 +74,7 @@ const Home = () => {
                                         <div className="d-flex align-items-center mt-2">
                                             <i className="fa-regular fa-heart fa-xl like" onClick={() => handleLike(ele._id)}></i>
                                             <i className="fa-regular fa-comment fa-xl mx-3 like" onClick={() => handleComment(ele)}></i>
-                                            <i class="fa-solid fa-circle-info fa-xl" onClick={() => navigate(`/post/details/${ele._id}`)}></i>
+                                            <i className="fa-solid fa-circle-info fa-xl" onClick={() => navigate(`/post/details/${ele._id}`)}></i>
                                         </div>
                                         <div className="mt-3 fw-bold"> {ele.likes} Likes</div>
                                         <div className=""><b>{ele.author}</b> {ele.description}</div>
