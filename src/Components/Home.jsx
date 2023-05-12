@@ -61,7 +61,7 @@ const Home = () => {
                 <div className="row d-flex align-items-center justify-content-center ">
                     <div className="col-sm-4">
                         {
-                            posts && posts.map((ele) => (
+                            posts && [...posts].reverse().map((ele) => (
                                 <div className="card mb-3">
                                     <div className="card-header d-flex align-items-center justify-content-between">
                                         <h6 className='mb-0 ms-2 username' >{ele.author}</h6>
